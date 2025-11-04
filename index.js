@@ -6,7 +6,7 @@ const port = 3000
 app.use(cors())
 app.use(express.json())
 
-const uri = "mongodb+srv://<db_username>:<db_password>@cluster0.fc5kt4o.mongodb.net/?appName=Cluster0";
+const uri = "mongodb+srv://model-db:y9d7ocojZfdiGnZv@cluster0.qwnp7az.mongodb.net/?appName=Cluster0";
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
